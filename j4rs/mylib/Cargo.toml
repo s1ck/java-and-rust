@@ -1,0 +1,11 @@
+[package]
+name = "mylib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate_type = ["cdylib"]
+
+[dependencies]
+j4rs = "0.14.0"
+j4rs_derive = "0.1.0"
